@@ -308,7 +308,25 @@ export default function GraniteVsQuartzLanding() {
               </div>
             </div>
           </section>
+
+          {/* Comparison Table */}
+          <ComparisonTable />
+
+          {/* FAQ Section */}
+          <FAQ />
+
+          {/* Local SEO & Service Areas */}
+          <LocalSEO />
+
+          {/* Testimonials */}
+          <Testimonials />
+
+          {/* Contact Form */}
+          <ContactForm />
         </main>
+
+        {/* Footer */}
+        <Footer />
       </div>
     </>
   )
