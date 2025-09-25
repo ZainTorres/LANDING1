@@ -1,6 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
+import ComparisonTable from '../components/ComparisonTable'
+import FAQ from '../components/FAQ'
+import LocalSEO from '../components/LocalSEO'
+import Testimonials from '../components/Testimonials'
+import ContactForm from '../components/ContactForm'
+import Footer from '../components/Footer'
 
 export default function GraniteVsQuartzLanding() {
   const [activeTab, setActiveTab] = useState('granite')
